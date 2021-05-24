@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JOB APPLICATION PORTAL</title>
+
+    <!--favicon part-->
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="favicon/apple-touch-icon.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!--java script part-->
+    <script>
+      alert("DEAR CANDIDATE,WELCOME TO JOB APPLICANTION PORTAL");
+    </script>
+
+    <!--css file link -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!--google font link-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1 style="text-align: center">JOB APPLICANT DETAILS</h1>
+
+    <!--form start-->
+    <form action="https://formspree.io/f/xjvpaqov" method="POST">
+      <!--personal information start -->
+      <fieldset>
+        <legend><b>PERSONAL INFORMATION: </b></legend>
+
+        <div id="div1">
+          <div class="div2">
+            <p>First Name:</p>
+            <input type="text" name="first name" />
+          </div>
+
+          <div class="div3">
+            <p>Middle Name:</p>
+            <input type="text" name="Middle name" />
+          </div>
+
+          <div class="div4">
+            <p>Surname :</p>
+            <input type="text" name="Surname" />
+          </div>
+        </div>
+        <hr />
+        <!--personal information end -->
+
+        <!--contact information start-->
+        <div id="div5">
+          <div class="div6">
+            <p>Mobile Number:</p>
+            <input type="number" name="Mobile number" />
+          </div>
+
+          <div class="div7">
+            <p>Email address:</p>
+            <input type="email" name="email address" />
+          </div>
+
+          <div class="div8">
+            <p>Address:</p>
+            <input type="text" name="address" />
+          </div>
+        </div>
+        <hr />
+        <!--contact information end-->
+
+        <!--other information start-->
+        <div id="div9">
+          <div class="div10">
+            <p>Date:</p>
+            <input type="date" name="date" />
+          </div>
+
+          <div class="div11">
+            <p>Gender:</p>
+            <input type="radio" name="category" value="male" />male
+            <input type="radio" name="category" value="female" />female
+            <input type="radio" name="category" value="other" />other
+          </div>
+
+          <div class="div12">
+            <p>Maritual status</p>
+            <select name="maritual status">
+              <option name="maritual status" value="Married">Married</option>
+              <option name="maritual status" value="UnMarried">
+                Unmarried
+              </option>
+              <option name="maritual status" value="window">Window</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+      <!--other information end-->
+
+      <!--Education details start-->
+      <fieldset>
+        <legend><b>EDUCATIONAL DETAILS: </b></legend>
+
+        <div id="div13">
+          <div class="div14">
+            <p>Ssc:</p>
+            <input type="text" name="Ssc" />
+          </div>
+
+          <div class="div15">
+            <p>Percentage:</p>
+            <input type="number" name="Percenatge of ssc" />
+          </div>
+
+          <div class="div16">
+            <p>Class:</p>
+            <select name="class of ssc">
+              <option value="first class">FIRST CLASS</option>
+              <option value="second class">SECOND CLASS</option>
+              <option value="third class">THIRD CLASS</option>
+            </select>
+          </div>
+        </div>
+        <hr />
+
+        <div id="div17">
+          <div class="div18">
+            <p>Graduation:</p>
+            <select name="graduation">
+              <option value="B.com">B.COM</option>
+              <option value="BE">BE</option>
+              <option value="BBA">BBA</option>
+              <option value="OTHER">OTHER</option>
+            </select>
+          </div>
+
+          <div class="div19">
+            <p>Percenatge:</p>
+            <input type="number" name="Percenatge of Graduation" />
+          </div>
+
+          <div class="div20">
+            <p>Class:</p>
+            <select name="class of graduation">
+              <option value="first class">FIRST CLASS</option>
+              <option value="second class">SECOND CLASS</option>
+              <option value="third class">THIRD CLASS</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+      <!--Education details end-->
+
+      <!--Experiance details start-->
+      <fieldset>
+        <legend><b>Experiance: </b></legend>
+
+        <div id="div21">
+          <div class="div22">
+            <p>Company Name:</p>
+            <input type="text" name="company name" />
+          </div>
+
+          <div class="div23">
+            <p>Number OF Years:</p>
+            <input type="number" name="number of years" />
+          </div>
+
+          <div class="div24">
+            <p>Salary:</p>
+            <input type="number" name="salary" />
+          </div>
+        </div>
+        <hr />
+
+        <p>Department:</p>
+        <select name="department">
+          <option value="PRODUCTION">PRODUCTION</option>
+          <option value="QUALITY">QUALITY</option>
+          <option value="MAINTENACE">MAINTENACE</option>
+          <option value="OTHER">OTHER</option>
+        </select>
+      </fieldset>
+      <!--Experiance details end-->
+
+      <!--certificate & awards details start-->
+      <fieldset>
+        <legend><b>CERTIFICATION & AWARDS: </b></legend>
+
+        <ol id="div25">
+          <li><input type="text" name="certificate1" /></li>
+
+          <li><input type="text" name="certificate2" /></li>
+
+          <li><input type="text" name="certificate3" /></li>
+        </ol>
+      </fieldset>
+      <!--certificate & awards details start-->
+
+      <!--language details start-->
+      <fieldset>
+        <legend><b>LANGUAGE KNOWN: </b></legend>
+        <p>English:</p>
+        <input type="checkbox" name="ENGLISH" value="read" />READ
+        <input type="checkbox" name="ENGLISH" value="write" />WRITE
+        <input type="checkbox" name="ENGLISH" value="speak" />SPEAK <br />
+        <br />
+        <p>Hindi:</p>
+        <input type="checkbox" name="HINDI" value="read" />READ
+        <input type="checkbox" name="HINDI" value="write" />WRITE
+        <input type="checkbox" name="HINDI" value="speak" />SPEAK <br />
+        <br />
+        <p>Gujarati:</p>
+        <input type="checkbox" name="Gujarati" value="read" />READ
+        <input type="checkbox" name="Gujarati" value="write" />WRITE
+        <input type="checkbox" name="Gujarati" value="speak" />SPEAK
+        <br /><br />
+      </fieldset>
+      <!--language details end-->
+      <b>
+        <input type="checkbox" /> All the details mention in above it is true. I
+        take complete responsibility of that details. If any detalis found wrong
+        it may lead to disqulify for further process.</b
+      >
+      <br /><br />
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+    <!--form end-->
+  </body>
+</html>

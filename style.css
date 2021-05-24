@@ -1,0 +1,61 @@
+body {
+  background: url("JOB 7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*div 1 for personal information */
+/*div 5  for contact information */
+/*div 9  for other information */
+/*div 13  for SSC information */
+/*div 17  for graduation information */
+/*div 21  for experiance information */
+/*div 25  for achievement information */
+
+#div1,
+#div5,
+#div9,
+#div13,
+#div17,
+#div21,
+#div25 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+ol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  font-weight: 500;
+  font-variant: small-caps;
+}
+
+@media screen and (max-width: 700px) {
+  #div1,
+  #div5,
+  #div9,
+  #div13,
+  #div17,
+  #div21,
+  #div25 {
+    display: block;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
